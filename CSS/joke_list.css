@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-shadow: 2px 3px yellow;
+    font-weight: bolder;
+  }
+  .table {
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  th,
+  td {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .joke_list{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }

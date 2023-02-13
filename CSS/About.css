@@ -1,0 +1,10 @@
+.abt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6e0e4
+  }
+  .card {
+    margin: 140px 24px;
+    width: 18rem;
+  }

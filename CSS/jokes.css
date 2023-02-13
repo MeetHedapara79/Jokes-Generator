@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .container {
+    display: flex;
+    height: 94px;
+    overflow: auto;
+    background-color: rgb(232 219 232);
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: brown;
+  }
+  a:hover {
+    color: red;
+  }
+  .navbar {
+    display: flex;
+    position: absolute;
+    top: 37px;
+    left: 1000px;
+  }
+  input {
+    font-size: 14px;
+    padding: 3px;
+  }
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 62px;
+  }
+  .logo h1 {
+    padding: 13px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+  }
+  .logo img {
+    width: 60px;
+    border: 1px solid rgb(220, 233, 246);
+    border-radius: 40px;
+  }
+  .main img {
+    opacity: 0.7;
+    width: 100%;
+  }
+  .joke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 500px;
+    height: 234px;
+    top: 296px;
+    left: 552px;
+    
+    text-align: center;
+  }
+  .joke button{
+    position: absolute;
+    top: 177px;
+    padding: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    color: yellow;
+    background-color: red;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .joke button:hover{
+    color: rgb(64, 233, 64);
+  }
+  #new{
+    color: green;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+  }
+  

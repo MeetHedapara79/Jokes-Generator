@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jokes</title>
+    <link rel="stylesheet" href="../CSS/jokes.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img
+          src="../Images/logo.jpg"
+          alt=""
+        />
+        <h1>Funtus</h1>
+      </div>
+      <div class="navbar">
+        <li><a href="jokes_home.html">Home</a></li>
+        <li><a href="jokes_list.html">Jokes</a></li>
+        <li><a href="about.html">About</a></li>
+      </div>
+    </div>
+    <div class="main">
+      <img
+        src="../Images/bg.jpg"
+        alt=""
+      />
+      <div class="joke" id="joke">
+        <button onclick="change_text()">New Joke</button>
+        <div id="new"></div>
+      </div>
+    </div>
+    <script src="../JavaScript/jokes.js"></script>
+  </body>
+</html>
